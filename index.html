@@ -1,0 +1,695 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>code darshan</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Khand:wght@600&display=swap');
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+
+<body style="font-family: 'Poppins', sans-serif;">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-lg  bg-warning">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Code दर्शन..</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Upcomings...</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Explore More
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="codedarshan.html">HTML</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">CSS</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">JAVASCRIPT</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item , nav-link-disabled " href="#">BOOTSTRAP</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary mx-4" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    Sign In
+                </button>
+            </div>
+        </div>
+
+    </nav>
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="C1.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text text-white"> John Johnson</h5>
+                    <p class="text text-white">“First, solve the problem. Then, write the code.”.</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="C2.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <p class="text text-primary"> “Experience is the name everyone gives to their mistakes.”</p>
+                   
+                    
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="C3.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+<hr>
+    <div class="container my-4">
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                    <div class="card-body d-flex flex-column align-items-start">
+                        <strong class="d-inline-block mb-2 text-primary">SKELETON</strong>
+                        <h3 class="mb-0">
+                            <a class="text-dark" href="#">HTML</a>
+                        </h3>
+                        <div class="mb-1 text-muted">Nov 12</div>
+                        <p class="card-text mb-auto">The HyperText Markup Language or HTML is
+                            the standard markup language for documents designed to be displayed
+                            in a web browser. It can be assisted by technologies such as Cascading
+                            Style Sheets (CSS) and scripting languages such as JavaScript.</a>
+                            <br>
+                            <br>
+                            <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                data-bs-target="#cd">Know More...</button>
+                        <div class="modal" id="cd">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 id="cd">HTML</h1>
+                                        <p>The HyperText Markup Language or HTML is the standard markup language for
+                                            documents
+                                            designed to be displayed in a web browser. It can be assisted by
+                                            technologies such
+                                            as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+                                            Web browsers
+                                            receive HTML documents from a web server or from local storage and render
+                                            the documents into
+                                            multimedia web pages. HTML describes the structure of a web page
+                                            semantically and originally
+                                            included cues for the appearance of the document. HTML elements are the
+                                            building blocks of HTML
+                                            pages. With HTML constructs, images and other objects such as interactive
+                                            forms may be embedded
+                                            into the rendered page. HTML provides a means to create structured documents
+                                            by denoting structural
+                                            semantics for text such as headings, paragraphs, lists, links, quotes, and
+                                            other items.</p>
+                                        <button type="button" class="btn btn-warning my-4" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <img class="card-img-right flex-auto d-none d-md-block" style="width: 200px; height: 250px;"
+                        src="thumb1.png" data-holder-rendered="true">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                    <div class="card-body d-flex flex-column align-items-start">
+                        <strong class="d-inline-block mb-2 text-success">Design</strong>
+                        <h3 class="mb-0">
+                            <a class="text-dark" href="#">CSS</a>
+                        </h3>
+                        <div class="mb-1 text-muted">Feb 11</div>
+                        <p class="card-text mb-auto">Cascading <br>Style Sheets (CSS) is a style sheet language used for
+                            describing the presentation of a document written in a markup language such as HTML or XML (including
+                            XML dialects such as SVG, MathML or XHTML).</a>
+                            <br><br>
+                            <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                data-bs-target="#css">Know More...</button>
+                        <div class="modal" id="css">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 id="css">CSS</h1>
+                                        <p>CSS is designed to enable the separation of content and presentation, including layout, 
+                                            colors, and fonts.This separation can improve content accessibility; provide more 
+                                            flexibility and control in the specification of presentation characteristics; enable multiple
+                                             web pages to share formatting by specifying the relevant CSS in a separate .css file, which 
+                                             reduces complexity and repetition in the structural content; and enable the .css file to be
+                                            cached to improve the page load speed between the pages that share the file and its formatting.</p>
+                                        
+                                        <button type="button" class="btn btn-warning my-4" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                            
+                            
+
+                    </div> <img class="card-img-right flex-auto d-none d-md-block" style="width: 200px; height: 250px;"
+                        src="thumb2.png" data-holder-rendered="true">
+                </div>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                    <div class="card-body d-flex flex-column align-items-start">
+                        <strong class="d-inline-block mb-2 text-primary">World</strong>
+                        <h3 class="mb-0">
+                            <a class="text-dark" href="#">JScript</a>
+                        </h3>
+                        <div class="mb-1 text-muted">Nov 12</div>
+                        <p class="card-text mb-auto">JavaScript often abbreviated as JS, is a programming language that
+                            is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2022, 98% 
+                            of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries.</p>
+                        <br>
+                        <br>
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                data-bs-target="#jscr">Know More...</button>
+                        <div class="modal" id="jscr">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 id="jscr"> Jscript </h1>
+                                        <p>JavaScript is a high-level, often just-in-time compiled language
+                                             that conforms to the ECMAScript standard. It has dynamic typing,
+                                              prototype-based object-orientation, and first-class functions. It is 
+                                              multi-paradigm, supporting event-driven, functional, and imperative programming 
+                                              styles. It has application programming interfaces (APIs) for working with text, 
+                                              dates, regular expressions, standard data structures,and the Document Object Model (DOM).</p>
+                                              <p class="text-danger">
+                                              जावास्क्रिप्ट (JavaScript) एक लोकप्रिय कंप्यूटर प्रोग्रामिंग लैंग्वेज (भाषा) है जिसकी मदद से HTML Web Page 
+                                              को अधिक Interactive बना सकते हैं यह एक Powerfull Scripting Language हैं.</p><br><br>
+                                        <button type="button" class="btn btn-warning my-4" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+
+                    </div> <img class="card-img-right flex-auto d-none d-md-block" style="width: 200px; height: 250px;"
+                        src="thumb3.png" data-holder-rendered="true">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                    <div class="card-body d-flex flex-column align-items-start">
+                        <strong class="d-inline-block mb-2 text-success">Design</strong>
+                        <h3 class="mb-0">
+                            <a class="text-dark" href="#">Bootstrap</a>
+                        </h3>
+                        <div class="mb-1 text-muted">Feb 12</div>
+                        <p class="card-text mb-auto">Bootstrap <br> is a free and open-source CSS framework directed at
+                            responsive,
+                            mobile-first front-end web development. It contains HTML, CSS and (optionally)
+                            JavaScript-based design
+                            templates for typography, forms, buttons, navigation, and other interface components.</a>
+                            <br><br>
+                            <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                data-bs-target="#bs">Know More...</button>
+                        <div class="modal" id="bs">
+                            <div class="modal-dialog modal-dialog-scrollable">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 id="bs">B-Strap</h1>
+                                        <p> <b>Bootstrap</b> is a free and open-source CSS framework directed at responsive, 
+                                            mobile-first front-end web development. It contains HTML, CSS and (optionally) 
+                                            JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.
+                                            As of December 2022, Bootstrap is the 14th most starred project (4th most starred library) on GitHub, with 
+                                            over 161,000 stars.According to W3Techs, Bootstrap is used by 19.2% of all websites.</p>
+                                        
+                                        <button type="button" class="btn btn-warning my-4" data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                           
+                            <br>
+
+                    </div> <img class="card-img-right flex-auto d-none d-md-block" style="width: 200px; height: 250px;"
+                        src="thumb4.png" data-holder-rendered="true">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal" id="a">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h6 class="modal-title">HTML!!!!</h6>
+                    <button class="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    <div class="modal-body">
+                        <p>loper5
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="2.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="3.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="2.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button"="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-white my-4">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
+
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Form -->
+            <section class="">
+                <form action="">
+                    <!--Grid row-->
+                    <div class="row d-flex justify-content-center">
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                <strong>Sign up for our newsletter</strong>
+                            </p>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-5 col-12">
+                            <!-- Email input -->
+                            <div class="form-outline form-white mb-4">
+                                <input type="email" id="form5Example21" class="form-control" />
+                                <label class="form-label" for="form5Example21">Email address</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-outline-danger mb-4">
+                                Subscribe
+                            </button>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </form>
+            </section>
+            <!-- Section: Form -->
+
+            <!-- Section: Text -->
+            <section class="mb-4">
+                <p>
+                    Coding is essentially a problem-solving process that helps to
+                    analyze a situation or goal and then use problem-solving skills
+                    to determine and implement a solution. While the goal or challenge
+                    may be the same, the solution itself may look different depending on
+                    the strategies taken to achieve the desired result.
+                </p>
+            </section>
+            <!-- Section: Text -->
+
+            <!-- Section: Links -->
+            <section class="">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Links</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white">Link 1</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Link 2</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Link 3</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Link 4</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Links</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white">Link 1</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Link 2</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Link 3</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Link 4</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Links</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white">Link 1</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Link 2</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Link 3</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Link 4</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Links</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white">Link 1</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Link 2</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Link 3</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Link 4</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(15, 11, 99, 0.2);">
+            © 2023 Copyright:
+            <a class="text-white" href="https://twitter.com/Damodar60742317/photo">www.coddarshan.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <body class="text-center">
+        <div style="text-align:center">
+            <div style="font-family: 'Khand', sans-serif;" class="modal fade" id="staticBackdrop"
+                data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <form>
+                                <div class=" mx-4 ">
+                                    <img src="logo.png" style="width: 60px;" alt="logo"><br>
+                                    <h4 class="text-dark" style="font-family: 'Khand', sans-serif;">Welcome to<h3
+                                            class="text-warning" style="font-family: 'Khand', sans-serif;"> Code दर्शन..
+                                        </h3>
+                                    </h4>
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+                                    <div class="col-sm-10">
+                                        <input type="email" class="form-control" id="inputEmail3">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label for="inputPassword3" class="col-sm-2 col-form-label">Pwd</label>
+                                    <div class="col-sm-10">
+                                        <input type="password" class="form-control" id="inputPassword3">
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-warning mx-4">Sign in</button>
+                                <hr>
+                                <button type="button" class="btn btn-outline-success mx-4" data-bs-toggle="modal"
+                                    data-bs-target="#signup">
+                                    Sign Up
+                                </button>
+                                <hr>
+                                <button type="submit" class="btn btn-danger mx-4" data-bs-dismiss="modal">close</button>
+                                <p class="mt-5 mb-3 text-muted"> ©2023</p><br>
+                                www.coddarshan.com
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+    </body>
+    <div class="modal fade" id="signup" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable bg-dark">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="text-success">Sign Up Here...</h1>
+                </div>
+                <div class="modal-body">
+                    <form class="row g-3 needs-validation">
+                        <label class="form-label text-dark">First name</label>
+                        <input type="text" class="form-control" value="" required>
+                        <label class="form-label text-dark">Last name</label>
+                        <input type="text" class="form-control" value="" required>
+                        <label class="form-label text-dark">Em@il Id</label>
+                        <input type="text" class="form-control" value="" required>
+                        <label class="form-label text-dark">Password</label>
+                        <input type="password" class="form-control" value="" required>
+                        <label class="form-label text-dark">Confirm Password</label>
+                        <input type="password" class="form-control" value="" required>
+
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">SignUp</button>
+                    <hr>
+
+                    <p class="mx-4">Already have a account? <a class="text-danger" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">log in </a></p>
+                    <hr>
+                    <div class="form-check form-check-inline mx-4">
+                        <label class="form-check-label mx-10">
+                            <input class="form-check-input" type="checkbox" value="checkedValue">we will
+                            send you marketing promotion,special offers,inpiration
+                            and so many things regarded the coding contents and so mant
+                            topics related<a class="text-primary" style="font-family: 'Khand', sans-serif;"
+                                data-bs-toggle="modal" data-bs-target="#tc">
+                                Terms and Condition</a>
+                        </label>
+
+                    </div>
+                    <p> </p>
+                    </p>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <body class="text-center">
+        <div style="text-align:center">
+            <div style="font-family: 'Khand', sans-serif;" class="modal fade" id="tc" data-bs-backdrop="static"
+                data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-scrollable ">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <p>The Indian government on Monday accepted Supreme Court's suggestion to form an
+                                expert-level committee to look into the allegations made by Hindenburg against the Adani
+                                group and protect the investors. Earlier, market regulator Securities and Exchange Board
+                                of India (SEBI) had also given its nod to the committee.
+
+                                Representing the centre, Solicitor General Tushar Mehta, however, added that the
+                                government will like to have a say in the composition of the panel.
+
+                                "We will suggest names of the experts to be included in the committee in a sealed cover.
+                                Some names may appeal to the Supreme Court, and some may not. But these names should not
+                                be discussed and opposed by the petitioners. The SC can choose from the list," he said
+                                in front of a bench of Chief Justice DY Chandrachud, and Justices PS Narasimha and JB
+                                Pardiwala.
+
+                                Mehta added no such message should go out to the investors that SEBI was incapable of
+                                handling the situation.
+
+                                "Our instructions are that existing structure - SEBI and other agencies - are fully
+                                equipped not only regime wise but otherwise also, in taking care of the situation."
+
+                                Last Friday, the apex court, taking a grim view of the rout in shares of the Adani group
+                                stated that investors had suffered losses running into several billion dollars. The
+                                court suggested that a mechanism was needed to protect the investors and put forth the
+                                idea of an expert committee.</p>
+
+
+                        </div>
+                        <div class="form-check form-check-inline mx-4">
+                            <label class="form-check-label mx-10">
+                                <input class="form-check-input" type="checkbox" value="checkedValue" >Accept Term
+                                Condition Now</a>
+                            </label>
+                            <button type="button" class="btn btn-danger mx-8">Submit</button>
+                            <button type="submit" class="btn btn-warning" data-bs-dismiss="modal">close</button>
+                        </div>
+                        
+                    </div><br><hr>
+                    
+                   
+                    
+                    <hr>
+                </div>
+            </div>
+
+        </div>
+    </body>
+
+</body>
+
+</html>
